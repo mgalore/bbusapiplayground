@@ -4,4 +4,4 @@ nixpkgs = ["python311"] # Change the Python version if needed
 cmds = ["pip install -r requirements.txt"]
 
 [start]
-cmd = "gunicorn testingbbus.py:app"
+cmd = "gunicorn testingbbus:app"

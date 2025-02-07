@@ -1,1 +1,1 @@
-web: gunicorn testingbbus.py:app 
+web: gunicorn testingbbus:app 
