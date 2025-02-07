@@ -1,1 +1,1 @@
-web: gunicorn testingbbus:app 
+web: web: gunicorn -w 4 -b 0.0.0.0:8000 testingbbus:app
